@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+body{
+  background: linear-gradient(to right, #020427, #05025f, #02022c);
+}
+
+html {
+  scroll-behavior: smooth;
+}
